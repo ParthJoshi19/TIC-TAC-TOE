@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heading{
+    animation: blink infinite 1s ;
+}
+
+
+#newGame{
+    animation: blink2 infinite 1s;
+}
+
+
+@keyframes blink2 {
+    0%{
+        border: 2px solid black;
+        color: white;
+    }
+    100%{
+        border:2px solid white;
+        color:black;
+    }
+}
+
+@keyframes blink {
+    0%{
+        border: 4px solid white;
+    }
+    100%{
+        border: 4px solid #9552a4;
+    }
+    0%{
+        border: 4px solid white;
+    }
+}
