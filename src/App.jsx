@@ -94,7 +94,7 @@ function App() {
 
   return (
     <div>
-      <div className="flex flex-col justify-center items-center relative h-[100vh] w-[100vw] bg-[#7be0ff]">
+      <div className="flex flex-col justify-center items-center relative h-[100vh] w-[100vw] bg-[#ff7b91]">
         <h1 className="heading text-5xl w-[25vw] text-center h-[8vh] flex justify-center items-center absolute top-12 mb-20 px-9 font-serif text-clip rounded-lg text-[#9552a4] border-4 border-[#af6fc1] hover:text-white hover:border-white hover:bg-[#9552a4]">
           Tic Tac Toe
         </h1>
